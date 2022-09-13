@@ -1,0 +1,42 @@
+body, html {
+    background-color: #01000a;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+img {
+    width: 350px;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    background-color: #fafafa;
+}
+
+#gw2 {
+    background-color: #AA0404;
+}
+
+#stormlight {
+    background-color: #07102D;
+}
+
+#tsfh {
+    background-color: #DEC076;
+}
+
+.divbody {
+    background-color: #fafafa;
+    margin: 0% 5%;
+
+}
+
