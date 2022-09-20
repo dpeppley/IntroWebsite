@@ -10,12 +10,19 @@ body {
     padding: 0px;
 }
 
-/** Image - https://www.w3schools.com/css/css_rwd_grid.asp **/   
-img {
-    width: 100%;
+h1 {
+    font-size: 36pt;
 }
 
-/* For mobile phones: */
+h2 {
+    font-size: 24pt;
+}
+
+img {
+    height: 100%;
+}
+
+/* Responsive classes */
 [class*="col-"] {
     width: 100%;
 }
@@ -47,16 +54,7 @@ img {
     display: table;
 }
 
-/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
-.overflow {
-    overflow-x:auto;
-}
-
-.heading {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 20px;
-    background-color: #fafafa;
-}
+/* ------------------ */
 
 .col-bg {
     padding: 0;
@@ -71,12 +69,28 @@ img {
     height: 150px;
 }
 
-#title-image {
-    width: 150px;
-    float: right;
+.divbody {
+    background-color: #fafafa;
+    margin: 0% 5%;
+
 }
 
-.tyria-bg {
+.fav-img {
+    width: 350px;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    background-color: #fafafa;
+}
+
+.overflow {
+    overflow-x:auto;
+}
+
+/* Backgrounds */
+.gw2-bg {
     background-color: #AA0404;
 }
 
@@ -87,3 +101,26 @@ img {
 .horizon-bg {
     background-color: #2F8DDD;
 }
+
+.stormlight-bg {
+    background-color: #07102D;
+}
+
+.tsfh-bg {
+    background-color: #DEC076;
+}
+
+#home-table {
+    width: 70%;
+}
+
+#home-table-cell {
+    width: 40%;
+}
+
+#title-image {
+    width: 175px;
+    float: right;
+}
+
+
